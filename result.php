@@ -30,8 +30,6 @@ if (curl_errno($ch)) {
 }
 curl_close ($ch);
 
-//print "<p>El JSON entero es: \n\n $result</p>";
-
 $json = json_decode($result, true);
 $prediction =floatval($json['values'][0][6]);
 $precio = number_format($prediction,2,',','.');
