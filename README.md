@@ -20,9 +20,9 @@ Este proyecto muestra una demo de página web que llama al Endpoint de Watson Ma
 
 Básicamente la web sólo necesita dos archivos: <code>index.php</code> y <code>result.php</code>
 
-index.php: Envía las creenciales de autenticación a Watson Machine Learning y recoge el token. Muestra la página principal de la aplicación con un formulario que contiene los parámetros de entrada del modelo. Este formulario envía tanto el token como el resto de parámetros a result.php
+<code>index.php</code>: Envía las creenciales de autenticación a Watson Machine Learning y recoge el token. Muestra la página principal de la aplicación con un formulario que contiene los parámetros de entrada del modelo. Este formulario envía tanto el token como el resto de parámetros a result.php
 
-result.php: recibe los parámetros de index.php, y los envía al Endpoint de Watson Machine Learning para obtener el resultado final que muestra por pantalla. En este caso el precio de la vivienda.
+<code>result.php</code>: recibe los parámetros de index.php, y los envía al Endpoint de Watson Machine Learning para obtener el resultado final que muestra por pantalla. En este caso el precio de la vivienda.
 
 ## Arquitectura
 
